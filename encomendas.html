@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Encomendas | Dona Clara</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html">
+                    Dona Clara
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Início
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="cardapio.html">
+                                Cardápio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="encomendas.html">
+                                Encomendas
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">
+                                Contato
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <a href="encomendas.html"
+                        class="btn btn-encomenda ms-lg-3">
+
+                        Fazer encomenda
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- CONTEÚDO -->
+
+    <main>
+
+        <!-- CABEÇALHO -->
+
+        <section class="cabecalho-encomendas">
+
+            <div class="container text-center">
+
+                <p>PARA MOMENTOS ESPECIAIS</p>
+
+                <h1>
+                    Faça sua encomenda
+                </h1>
+
+                <span>
+                    Preencha os dados abaixo e envie sua solicitação.
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- FORMULÁRIO -->
+
+        <section class="formulario-encomenda">
+
+            <div class="container">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-8">
+
+                        <div class="formulario-card">
+
+                            <h2>
+                                Dados da encomenda
+                            </h2>
+
+                            <p class="descricao-formulario">
+                                Informe os detalhes do seu pedido.
+                            </p>
+
+
+                            <form>
+
+
+                                <!-- NOME -->
+
+                                <div class="mb-3">
+
+                                    <label for="nome" class="form-label">
+                                        Nome completo
+                                    </label>
+
+                                    <input type="text"
+                                        class="form-control"
+                                        id="nome"
+                                        placeholder="Digite seu nome"
+                                        required>
+
+                                </div>
+
+
+                                <!-- TELEFONE -->
+
+                                <div class="mb-3">
+
+                                    <label for="telefone" class="form-label">
+                                        Telefone
+                                    </label>
+
+                                    <input type="tel"
+                                        class="form-control"
+                                        id="telefone"
+                                        placeholder="(41) 99999-9999"
+                                        required>
+
+                                </div>
+
+
+                                <!-- PRODUTO -->
+
+                                <div class="mb-3">
+
+                                    <label for="produto" class="form-label">
+                                        Produto
+                                    </label>
+
+                                    <select class="form-select"
+                                        id="produto"
+                                        required>
+
+                                        <option value="">
+                                            Selecione um produto
+                                        </option>
+
+                                        <option>
+                                            Pão artesanal
+                                        </option>
+
+                                        <option>
+                                            Pão integral
+                                        </option>
+
+                                        <option>
+                                            Pão de queijo
+                                        </option>
+
+                                        <option>
+                                            Bolo caseiro
+                                        </option>
+
+                                        <option>
+                                            Brownie
+                                        </option>
+
+                                        <option>
+                                            Torta artesanal
+                                        </option>
+
+                                        <option>
+                                            Coxinha
+                                        </option>
+
+                                        <option>
+                                            Esfiha
+                                        </option>
+
+                                        <option>
+                                            Empada
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+
+                                <!-- QUANTIDADE -->
+
+                                <div class="mb-3">
+
+                                    <label for="quantidade" class="form-label">
+                                        Quantidade
+                                    </label>
+
+                                    <input type="number"
+                                        class="form-control"
+                                        id="quantidade"
+                                        min="1"
+                                        placeholder="Informe a quantidade"
+                                        required>
+
+                                </div>
+
+
+                                <!-- DATA -->
+
+                                <div class="mb-3">
+
+                                    <label for="data" class="form-label">
+                                        Data desejada
+                                    </label>
+
+                                    <input type="date"
+                                        class="form-control"
+                                        id="data"
+                                        required>
+
+                                </div>
+
+
+                                <!-- OBSERVAÇÕES -->
+
+                                <div class="mb-4">
+
+                                    <label for="observacoes" class="form-label">
+                                        Observações
+                                    </label>
+
+                                    <textarea
+                                        class="form-control"
+                                        id="observacoes"
+                                        rows="4"
+                                        placeholder="Alguma observação sobre sua encomenda?"></textarea>
+
+                                </div>
+
+
+                                <!-- BOTÃO -->
+
+                                <div class="text-center">
+
+                                    <button type="submit"
+                                        class="btn btn-principal">
+
+                                        Enviar encomenda
+
+                                    </button>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- INFORMAÇÃO -->
+
+        <section class="informacao-encomenda">
+
+            <div class="container text-center">
+
+                <h2>
+                    Como funciona?
+                </h2>
+
+                <div class="row g-4 mt-3">
+
+                    <div class="col-md-4">
+
+                        <div class="passo">
+
+                            <span>1</span>
+
+                            <h3>
+                                Preencha
+                            </h3>
+
+                            <p>
+                                Informe seus dados e escolha
+                                o produto desejado.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="passo">
+
+                            <span>2</span>
+
+                            <h3>
+                                Envie
+                            </h3>
+
+                            <p>
+                                Envie sua solicitação de encomenda
+                                pelo formulário.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="passo">
+
+                            <span>3</span>
+
+                            <h3>
+                                Aguarde
+                            </h3>
+
+                            <p>
+                                A equipe Dona Clara entrará em
+                                contato para confirmar.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <h3>
+                        Dona Clara
+                    </h3>
+
+                    <p>
+                        Panificação artesanal feita com carinho.
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h4>
+                        Contato
+                    </h4>
+
+                    <p>
+                        (41) 99999-9999
+                    </p>
+
+                    <p>
+                        contato@donaclara.com
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h4>
+                        Horário
+                    </h4>
+
+                    <p>
+                        Seg a Sáb
+                    </p>
+
+                    <p>
+                        07h às 19h
+                    </p>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p class="copyright">
+                © 2026 Panificadora & Empório Dona Clara.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

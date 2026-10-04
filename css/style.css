@@ -1,0 +1,648 @@
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #4b3528;
+    background-color: #f7f0e4;
+}
+
+h1,
+h2,
+h3,
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* MENU */
+
+.navbar {
+    background-color: #f7f0e4;
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    color: #5a3928;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #5a3928;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #a65f45;
+}
+
+.btn-encomenda {
+    background-color: #a65f45;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.btn-encomenda:hover {
+    background-color: #7d4937;
+    color: white;
+}
+
+
+/* HERO */
+
+.hero {
+    background-color: #eee1ce;
+    padding: 90px 0;
+}
+
+.hero-subtitulo {
+    color: #7b8450;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    color: #5a3928;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #a65f45;
+}
+
+.hero-texto {
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 520px;
+    margin-bottom: 30px;
+}
+
+.btn-principal {
+    background-color: #a65f45;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 25px;
+}
+
+.btn-principal:hover {
+    background-color: #7d4937;
+    color: white;
+}
+
+.hero-imagem img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+
+/* DESTAQUES */
+
+.destaques {
+    padding: 80px 0;
+    background-color: #f7f0e4;
+}
+
+.titulo-secao {
+    margin-bottom: 45px;
+}
+
+.titulo-secao p,
+.sobre-subtitulo {
+    color: #7b8450;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.titulo-secao h2 {
+    color: #5a3928;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.titulo-secao span {
+    color: #6d5b4f;
+}
+
+
+/* CARDS */
+
+.produto-card {
+    border: none;
+    background-color: #fffaf3;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.produto-card img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.produto-card .card-body {
+    padding: 25px;
+}
+
+.produto-card h3 {
+    color: #5a3928;
+    font-size: 28px;
+}
+
+.produto-card p {
+    color: #6d5b4f;
+}
+
+.produto-card a {
+    color: #a65f45;
+    font-weight: 600;
+}
+
+
+/* ENCOMENDAS */
+
+.encomendas {
+    background-color: #7b8450;
+    color: white;
+    padding: 65px 0;
+}
+
+.encomendas p {
+    margin-bottom: 8px;
+}
+
+.encomendas h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.btn-claro {
+    background-color: #f7f0e4;
+    color: #5a3928;
+    padding: 13px 25px;
+    border-radius: 25px;
+}
+
+.btn-claro:hover {
+    background-color: white;
+    color: #5a3928;
+}
+
+
+/* SOBRE */
+
+.sobre {
+    padding: 80px 0;
+    background-color: #eee1ce;
+}
+
+.sobre h2 {
+    font-size: 40px;
+    color: #5a3928;
+    line-height: 1.3;
+}
+
+.sobre p {
+    color: #6d5b4f;
+    line-height: 1.8;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #4b3528;
+    color: #f7f0e4;
+    padding: 50px 0 20px;
+}
+
+footer h3 {
+    font-size: 28px;
+}
+
+footer h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer hr {
+    margin-top: 30px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero-imagem {
+        margin-top: 40px;
+    }
+
+    .encomendas {
+        text-align: center;
+    }
+
+    .encomendas .btn {
+        margin-top: 20px;
+    }
+
+    .sobre h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+}
+/* PÁGINA CARDÁPIO */
+
+.cabecalho-cardapio {
+    background-color: #eee1ce;
+    padding: 70px 0;
+}
+
+.cabecalho-cardapio p {
+    color: #7b8450;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-cardapio h1 {
+    color: #5a3928;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-cardapio span {
+    color: #6d5b4f;
+}
+
+
+/* PRODUTOS */
+
+.produtos {
+    background-color: #f7f0e4;
+    padding: 70px 0;
+}
+
+.produtos-alternativo {
+    background-color: #eee1ce;
+}
+
+.titulo-produtos {
+    margin-bottom: 35px;
+}
+
+.titulo-produtos p {
+    color: #7b8450;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.titulo-produtos h2 {
+    color: #5a3928;
+    font-size: 36px;
+}
+
+
+/* CARD DO PRODUTO */
+
+.produto {
+    background-color: #fffaf3;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.produto img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.produto-info {
+    padding: 25px;
+}
+
+.produto-info h3 {
+    color: #5a3928;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.produto-info p {
+    color: #6d5b4f;
+    line-height: 1.6;
+}
+
+.produto-info strong {
+    color: #a65f45;
+    font-size: 18px;
+}
+/* PÁGINA DE ENCOMENDAS */
+
+.cabecalho-encomendas {
+    background-color: #eee1ce;
+    padding: 70px 0;
+}
+
+.cabecalho-encomendas p {
+    color: #7b8450;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-encomendas h1 {
+    color: #5a3928;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-encomendas span {
+    color: #6d5b4f;
+}
+
+
+/* FORMULÁRIO */
+
+.formulario-encomenda {
+    background-color: #f7f0e4;
+    padding: 70px 0;
+}
+
+.formulario-card {
+    background-color: #fffaf3;
+    padding: 45px;
+    border-radius: 18px;
+}
+
+.formulario-card h2 {
+    color: #5a3928;
+    font-size: 34px;
+}
+
+.descricao-formulario {
+    color: #6d5b4f;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    color: #5a3928;
+    font-weight: 500;
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #d5c5b2;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #fff;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #a65f45;
+    box-shadow: 0 0 0 0.2rem rgba(166, 95, 69, 0.15);
+}
+
+
+/* COMO FUNCIONA */
+
+.informacao-encomenda {
+    background-color: #eee1ce;
+    padding: 70px 0;
+}
+
+.informacao-encomenda h2 {
+    color: #5a3928;
+    font-size: 38px;
+}
+
+.passo {
+    background-color: #fffaf3;
+    padding: 30px 20px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.passo span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #7b8450;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.passo h3 {
+    color: #5a3928;
+    font-size: 25px;
+}
+
+.passo p {
+    color: #6d5b4f;
+    line-height: 1.6;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .cabecalho-encomendas h1 {
+        font-size: 40px;
+    }
+
+    .formulario-card {
+        padding: 30px 20px;
+    }
+
+    .informacao-encomenda h2 {
+        font-size: 32px;
+    }
+
+}
+/* PÁGINA DE CONTATO */
+
+.cabecalho-contato {
+    background-color: #eee1ce;
+    padding: 70px 0;
+}
+
+.cabecalho-contato p {
+    color: #7b8450;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-contato h1 {
+    color: #5a3928;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-contato span {
+    color: #6d5b4f;
+}
+
+
+/* CONTEÚDO DO CONTATO */
+
+.contato-conteudo {
+    background-color: #f7f0e4;
+    padding: 80px 0;
+}
+
+.contato-subtitulo {
+    color: #7b8450;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.contato-conteudo h2 {
+    color: #5a3928;
+    font-size: 38px;
+    line-height: 1.3;
+}
+
+.contato-texto {
+    color: #6d5b4f;
+    line-height: 1.8;
+    margin: 20px 0 35px;
+}
+
+.informacao {
+    margin-bottom: 25px;
+}
+
+.informacao h3 {
+    color: #a65f45;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.informacao p {
+    color: #6d5b4f;
+    margin: 0;
+}
+
+
+/* FORMULÁRIO DE CONTATO */
+
+.contato-formulario {
+    background-color: #fffaf3;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+.contato-formulario h2 {
+    font-size: 32px;
+}
+
+.contato-formulario > p {
+    color: #6d5b4f;
+    margin-bottom: 30px;
+}
+
+
+/* LOCALIZAÇÃO */
+
+.localizacao {
+    background-color: #eee1ce;
+    padding: 70px 0;
+}
+
+.localizacao > .container > p {
+    color: #7b8450;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.localizacao h2 {
+    color: #5a3928;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.mapa {
+    background-color: #d8cbb8;
+    min-height: 250px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa span {
+    font-size: 40px;
+}
+
+.mapa p {
+    color: #5a3928;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .cabecalho-contato h1 {
+        font-size: 40px;
+    }
+
+    .contato-conteudo h2 {
+        font-size: 32px;
+    }
+
+    .contato-formulario {
+        padding: 30px 20px;
+    }
+
+    .localizacao h2 {
+        font-size: 32px;
+    }
+
+}
